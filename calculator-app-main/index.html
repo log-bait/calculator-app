@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+<link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Calculator app</title>
+</head>
+<body>
+  <div class="th-numbers"><span>1</span><span>2</span><span>3</span></div>
+  <header>
+    <div>
+      <h1>calc</h1>
+    </div>
+    <div>
+      <span>THEME</span>
+      <input type="radio" value="1" name="theme" id="one">
+      <input type="radio" value="2" name="theme" id="two" >
+      <input type="radio" value="3" name="theme" id="three">
+    </div>
+      
+  </header>
+<section>
+  <form class="display">
+  <div class="section">
+    <input type="text" class="upper" >
+
+    <input type="text" dir="rtl" class="value">
+  </div>
+</form>
+    <div class="pad">
+      <div>
+        <button class="number" >7</button>
+        <button class="number" >8</button>
+        <button class="number" >9</button>
+        <button class="del">DEL</button>
+      </div>
+      <div>
+      <button class="number" >4</button>
+      <button class="number" >5</button>
+      <button class="number" >6</button>
+      <button class="operator" >+</button>
+    </div>
+    <div>
+      <button class="number" >3</button>
+      <button class="number" >2</button>
+      <button class="number" >1</button>
+      <button class="operator" >-</button>
+    </div>
+    <div>
+      <button  id="dot"  class="number">.</button>
+      <button class="number" >0</button>
+      <button class="operator" id='divide'>/</button>
+      <button class="operator" >*</button>
+
+    </div>
+    <div class="reset-btn">
+      <button class="reset" id="res" >RESET</button>
+      <button class="reset" id="equal">=</button>
+    </div>
+  </div>
+</section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">JeyaPrakash</a>.
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
